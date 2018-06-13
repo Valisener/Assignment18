@@ -19,11 +19,7 @@
         
         <receiver android:name=".MyReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BATTERY_OKAY"></action>
                 <action android:name="android.intent.action.BATTERY_CHANGED"></action>
-                <action android:name="android.intent.action.BATTERY_LOW"></action>
-                <action android:name="android.intent.action.TIME_SET"></action>
-
             </intent-filter>
 
         </receiver>
